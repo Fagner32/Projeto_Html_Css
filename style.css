@@ -1,0 +1,142 @@
+header{
+    background-color:#BBBBBB ;
+    padding: 20px 0px ;/*top, botton, left, rigth*/
+}
+
+.caixa{
+    position: relative;/*deixa o div relativo com o header*/
+    margin: 0 auto;/*Alinha o elemento no centro*/
+    width: 940px;/*largura padrão da web*/
+
+}
+
+nav{
+    position: absolute;/**/
+    top: 110px;
+    right: 0px;
+    
+}
+
+nav .lista1{
+    display:inline;
+    margin-left: 15px; 
+}
+nav a {
+    text-transform:uppercase;
+    color: #000000;
+    font-weight: bold;
+    
+    font-size: 22px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration-line: underline;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+#banner{
+    width: 100% ;/*100% pega o tamanhho inteiro da tela*/
+    /*right:   ;*/
+    /*margin:  ;*/
+    /*padding: ;*/
+}
+.titulo{
+ text-align: center;
+ padding-bottom: 20px;
+ font-weight: bold;
+ font-size: 300px;
+ 
+ 
+}
+
+.titulo-centralizado{
+ padding-bottom: 10px;
+}
+
+
+
+p{
+    text-align: center;
+}
+
+#missao{
+  font-size: 20px;  
+}
+
+em strong{
+    color: red;
+}/*Todos os strong/strongs que estão dentro de em*/
+
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+background-color: #FFFFFF;
+padding: 40px;
+font-size: 20px;
+font-weight: bold;
+
+}
+
+ul{
+    display: inline-block;/*inline deixa os elementos em forma de uma unica linha e o block mantem as dimenções do elemento*/
+    vertical-align: top;/*coloca o contéudo em uma linha vertical acima na altura da imagem*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagembeneficios{
+    width:50%; /*a % serve para fazer com oque a imagens combra o montandte de % da tela*/
+}
+
+
+.rodape{
+    text-align: center;
+    background-image: url(./img/bg.jpg);
+    padding: 4px 0px;
+}
+
+.rodape .copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top:20px;
+}
+
+
+
+
+
+/*Alfabetopara computação
+
+binário => 0 1
+numérico => 0123456789
+hexadecimal => 0123456789ABCDEF
+RGB = RED, GREEN E BLUE
+#_ _ _ _ _ _ => Os 2(_ _) primeiro marcar o RED
+                Os 2(_ _) do meio marca GREEN
+                Os 2(_ _) do final marca o BBLUE 
+
+0 = Ausência de cor
+F = Máximo de cor
+
+black => #000000
+white => #FFFFFF
+
+RGB => 0, 1,2  ... 255
+0 = Ausência de cor
+255 = Máximo de cor
+*/
