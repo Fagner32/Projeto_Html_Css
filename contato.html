@@ -14,7 +14,7 @@
         <header>
             <div class="caixa">
                     <h1>
-                        <img src="./img/logo.png" alt="">
+                        <img src="./img/logo.png" alt="Logo da Berbearia Alura">
                     </h1>
                 <nav>
                     <ul class="lista">
@@ -29,21 +29,74 @@
     <main>
         <form action="">
             <label for ="nomeSobrenome">Nome e Sobrenome</label>
-            <input type="text" name="name" id="nomeSobrenome">
+            <input type="text" name="name" id="nomeSobrenome" class="input-padrao" required>
 
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" class="input-padrao" placeholder="email@@dominio.com" required>
 
             <label for="telefone">Telefone</label>
-            <input type="text" name="telefone" id="telefone">
+            <input type="text" name="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
             
-            <input type="submit" value="Enviar Formulário">
+            <fieldset>
+                <legend>Como prefere nosso contato</legend>
+                <label for="Email"><input type="radio" value="email" id="Email">E-mail</label>
+                
+
+                <label for="Telefone"><input type="radio" value="telefone" id="Telefone">Telefone</label>
+                
+
+                <label for="Whatsapp"><input type="radio" value="whatsapp" id="Whatsapp" checked>Whatsapp</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend> 
+                <label for="horario">
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </label>
+            </fieldset>
+            
+            <label class="checkbox">
+            <input type="checkbox" name="" id="" checked> Gostaria de receber nossas novidades pelo e-mail
+            </label>
+
+            <input class="enviar" type="submit" value="Enviar Formulário">
         </form>
-        
+        <p>Horário de funcionamento</p>
+        <table>
+            
+                <thead>
+                    <tr>
+                        <th>Dias</th>
+                        <th>Horários</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 18h</td> 
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h - 18h</td> 
+                    </tr>
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h - 18h</td> 
+                    </tr>
+                </tbody>
+        </table>
     </main>
         <footer class="rodape">
             <div>
-                <img src="./img/logo-branco.png" alt="">
+                <img src="./img/logo-branco.png" alt="Logo da Berbearia Alura">
                 <p class="copyright">&copy; Copyright Barbearia Alura 2021</p>
             </div>
         </footer>
