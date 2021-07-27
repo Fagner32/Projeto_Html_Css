@@ -1,0 +1,50 @@
+header{
+    background-color:#BBBBBB ;
+    padding: 20px 0px ;/*top, botton, left, rigth*/
+}
+
+.caixa{
+    position: relative;/*deixa o div relativo com o header*/
+    margin: 0 auto;/*Alinha o elemento no centro*/
+    width: 940px;/*largura padrão da web*/
+
+}
+
+nav{
+    position: absolute;/**/
+    top: 110px;
+    right: 0px;
+    
+}
+
+nav li{
+    display:inline;
+    margin-left: 15px; 
+}
+
+nav a {
+    text-transform:uppercase;
+    color: #000000;
+    font-weight: bold;
+    
+    font-size: 22px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration-line: underline;
+
+}
+
+.rodape{
+    text-align: center;
+    background-image: url(./img/bg.jpg);
+    padding: 4px 0px;
+}
+
+.rodape .copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top:20px;
+}
