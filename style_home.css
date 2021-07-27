@@ -17,10 +17,11 @@ nav{
     
 }
 
-nav .lista1{
+nav li{
     display:inline;
     margin-left: 15px; 
 }
+
 nav a {
     text-transform:uppercase;
     color: #000000;
