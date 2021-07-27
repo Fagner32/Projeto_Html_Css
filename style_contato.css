@@ -37,6 +37,30 @@ nav a:hover{
 
 }
 
+main{
+    width: 940px;
+    margin: 0 auto;
+    }
+    
+    form{
+        margin: 40px 0;
+        
+    }
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
 .rodape{
     text-align: center;
     background-image: url(./img/bg.jpg);
@@ -48,3 +72,4 @@ nav a:hover{
     font-size: 13px;
     margin-top:20px;
 }
+
